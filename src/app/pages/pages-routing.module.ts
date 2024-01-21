@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PagesComponent } from './pages.component';
+import { authGuard } from '../guard/auth.guard';
 
 const routes: Routes = [
   {
@@ -16,7 +17,13 @@ const routes: Routes = [
         path: 'todo',
         loadChildren: () =>
           import('./todo/todo.module').then((p) => p.TodoModule),
+          canActivate:[authGuard]
       },
+      {
+        path:'',
+        redirectTo:'auth',
+        pathMatch:'full'
+      }
     ],
   },
 ];

@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 import { TodoRoutingModule } from './todo-routing.module';
 import { MainComponent } from './components/main/main.component';
 import { ContentComponent } from './components/content/content.component';
-import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { QuillModule } from 'ngx-quill'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,10 @@ import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     TodoRoutingModule,
-    NgbModalModule
+    FormsModule,
+    QuillModule.forRoot(
+     
+    )
   ]
 })
 export class TodoModule { }

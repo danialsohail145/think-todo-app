@@ -2,5 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '~quill/dist/quill.bubble.css'; 
+ // or
+ @import '~quill/dist/quill.snow.css';
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+// @import 'bootstrap/scss/bootstrap';
+
+// /* Importing Bootstrap SCSS file. */
+// @import 'bootstrap/scss/bootstrap';

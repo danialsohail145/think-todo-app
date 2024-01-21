@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "think-todo": {
+      "hosting": {
+        "todo-list": [
+          "think-todo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "think-todo"
+  }
+}

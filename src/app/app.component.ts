@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { initializeApp } from '@angular/fire/app';
+import { getAuth } from '@angular/fire/auth';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-list';
+  ngOnInit(): void {
+  
+  }
 }
