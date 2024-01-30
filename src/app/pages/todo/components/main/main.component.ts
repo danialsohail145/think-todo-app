@@ -52,6 +52,7 @@ export class MainComponent implements OnInit {
   }
 
   addNewTodo() {
+    this.isEdit = false;
     this.open();
   }
 
