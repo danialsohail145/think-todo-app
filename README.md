@@ -1,27 +1,54 @@
-# TodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+# THINK TODO
 
-## Development server
+Introducing ✨ THINK - TODO✨: Your Productivity Powerhouse Built with Angular, Firebase, and Tailwind
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+** Struggling to stay on top of your tasks?** Juggling deadlines, appointments, and personal to-dos can feel overwhelming. But worry no more! 
+## Tech Stack
 
-## Code scaffolding
+**Client:** Angular, TailwindCSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Server:** Firebase
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Authors
 
-## Running unit tests
+- [@danialsohail145](https://www.github.com/danialsohail145)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Run Locally
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Clone the project
 
-## Further help
+```bash
+  git clone https://github.com/danialsohail145/think-todo-app
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Go to the project directory
+
+```bash
+  cd think-todo-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  ng serve
+```
+
+
+## 🚀 About Me
+I'm a software engineer, with having experties in JavaScript, Angular, Node.
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danial-sohail-4470a2123/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/borxdev)
+
